@@ -53,22 +53,22 @@
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-api</artifactId>
-      <version>0.2-SNAPSHOT</version>
+      <version>1.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-spi</artifactId>
-      <version>0.2-SNAPSHOT</version>
+      <version>1.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-validation</artifactId>
-      <version>0.2-SNAPSHOT</version>
+      <version>1.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-diagram</artifactId>
-      <version>0.2-SNAPSHOT</version>
+      <version>1.0.1.Final</version>
     </dependency>
   </dependencies>
   <build>
@@ -139,16 +139,4 @@
       </properties>
     </profile>
   </profiles>
-  <repositories>
-    <repository>
-      <id>oss.sonatype.org-snapshot</id>
-      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 </project>
