@@ -17,6 +17,7 @@
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
     <quarkus.platform.version>1.8.2.Final</quarkus.platform.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
+    <io.serverlessworkflow.version>2.0.0-SNAPSHOT</io.serverlessworkflow.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -53,22 +54,22 @@
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-api</artifactId>
-      <version>1.0.1.Final</version>
+      <version>${io.serverlessworkflow.version}</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-spi</artifactId>
-      <version>1.0.1.Final</version>
+      <version>${io.serverlessworkflow.version}</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-validation</artifactId>
-      <version>1.0.1.Final</version>
+      <version>${io.serverlessworkflow.version}</version>
     </dependency>
     <dependency>
       <groupId>io.serverlessworkflow</groupId>
       <artifactId>serverlessworkflow-diagram</artifactId>
-      <version>1.0.1.Final</version>
+      <version>${io.serverlessworkflow.version}</version>
     </dependency>
   </dependencies>
   <build>
@@ -139,4 +140,16 @@
       </properties>
     </profile>
   </profiles>
+  <repositories>
+    <repository>
+      <id>oss.sonatype.org-snapshot</id>
+      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 </project>
