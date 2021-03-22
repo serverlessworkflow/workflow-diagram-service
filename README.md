@@ -10,10 +10,20 @@ Allows to generate SVG workflow diagrams from the JSON/YAML workflow DSL.
 
 | Latest Version | Conformance to spec version |
 | :---: | :---: |
-| 1.0-SNAPSHOT | [v0.6](https://github.com/serverlessworkflow/specification/tree/0.6.x) |
+| 1.0 | [v0.6](https://github.com/serverlessworkflow/specification/tree/0.6.x) |
 
 
 ### Getting Started
+
+#### From DockerHub
+
+```text
+docker pull serverlessworkflow/serverless-workflow-diagram-service:1.0
+docker images
+docker run -i -t IMAGE_ID
+```
+
+where `IMAGE_ID` is the id of the pulled image
 
 #### Build and run locally (Dev Mode)
 
