@@ -2,9 +2,40 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>io.serverlessworkflow</groupId>
   <artifactId>diagram-service</artifactId>
   <version>1.0-SNAPSHOT</version>
+
+  <name>Serverless Workflow :: Diagram Service</name>
+  <url>https://serverlessworkflow.io/workflow-diagram-service</url>
+  <description>Serverless Workflow Diagram Service</description>
+  <inceptionYear>2021</inceptionYear>
+  <organization>
+    <name>CNCF</name>
+    <url>https://www.cncf.io//</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git://github.com/serverlessworkflow/workflow-diagram-service.git</connection>
+    <developerConnection>scm:git:git@github.com:serverlessworkflow/workflow-diagram-service.git</developerConnection>
+    <url>https://github.com/serverlessworkflow/workflow-diagram-service</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>tsurdilo</id>
+      <name>Tihomir Surdilovic</name>
+    </developer>
+  </developers>
+
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <maven.compiler.parameters>true</maven.compiler.parameters>
