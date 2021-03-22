@@ -1,3 +1,6 @@
+![Verify Workflow Diagram Service](https://github.com/serverlessworkflow/workflow-diagram-service/workflows/Verify%20Workflow%20Diagram%20Service/badge.svg)
+
+
 # Serverless Workflow Specification - Diagram Service
 
 Provides a simple service for Serverless Workflow diagram generation.
