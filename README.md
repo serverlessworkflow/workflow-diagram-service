@@ -18,7 +18,7 @@ Allows to generate SVG workflow diagrams from the JSON/YAML workflow DSL.
 #### From DockerHub
 
 ```text
-docker pull serverlessworkflow/serverless-workflow-diagram-service:1.0
+docker pull quay.io/serverlessworkflow/diagram-service:1.0
 docker images
 docker run -i -t IMAGE_ID
 ```
