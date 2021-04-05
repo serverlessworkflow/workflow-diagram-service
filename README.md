@@ -27,6 +27,8 @@ where `IMAGE_ID` is the id of the pulled image
 
 #### Build and run locally (Dev Mode)
 
+this service needs [Graphviz](https://graphviz.org/download/), if generated image has "File does not existCannot find Graphviz", install graphviz first.
+
 To build and run tests locally:
 
 ```text
