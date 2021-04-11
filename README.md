@@ -27,28 +27,40 @@ where `IMAGE_ID` is the id of the pulled image
 
 #### Build and run locally (Dev Mode)
 
-this service needs [Graphviz](https://graphviz.org/download/), if generated image has "File does not existCannot find Graphviz", install graphviz first.
-
-To build and run tests locally:
+1. Install [GraphViz](https://plantuml.com/graphviz-dot) locally. You call follow instructions
+for your OS in the provided link. 
+   
+2. Build and run tests locally:
 
 ```text
 https://github.com/serverlessworkflow/workflow-diagram-service.git
+
 cd workflow-diagram-service
+
 mvn clean install
 ```
 
-To run the service on dev mode:
+3. Run the service on dev mode:
 
 ```text
 mvn clean install quarkus:dev
 ```
 #### Build and run locally (JVM Docker Image)
 
+1. Install [GraphViz](https://plantuml.com/graphviz-dot) locally. You call follow instructions
+   for your OS in the provided link.
+
+2. Build, package and run the service:
+
 ```text
 https://github.com/serverlessworkflow/workflow-diagram-service.git
+
 cd workflow-diagram-service
+
 mvn package -Dquarkus.native.container-build=true
+
 docker build -f src/main/docker/Dockerfile.jvm -t sw/diagram-service .
+
 docker run -i --rm -p 8080:8080 sw/diagram-service
 ```
 
